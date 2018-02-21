@@ -1,5 +1,5 @@
-//Alejandro Casanova MartÌn
-//Este programa sirve para calcular la coordenada "y" de una par·bola
+//Alejandro Casanova Mart√≠n
+//Este programa sirve para calcular la coordenada "y" de una par√°bola
 //de la forma "y=x^2 +2*x + 1 " al introducir la coordenada "x"
 
 #include <stdio.h>
