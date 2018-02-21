@@ -1,3 +1,5 @@
+//Wenqiang Wang
+
 #include <stdio.h>
 int main() {
     float a, b, c;
@@ -7,18 +9,18 @@ int main() {
     scanf("%f", &a);
     printf("Introduce b\n");
     scanf("%f", &b);
-    if(a>b){
-        printf("b menor que a, no se forma un intervalo \n");
+    if(a>=b){
+        printf("b menor o igual que a, no se forma un intervalo \n");
     }
     else{
         printf("Introduce c\n");
         scanf("%f", &c);
         if((c>a) && (c<b)){
-        printf("%f pertenece al intervalo (%f,%f)\n", c, a, b);
+            printf("%f pertenece al intervalo (%f,%f)\n", c, a, b);
         }
         else{
-        printf("%f no pertenece al intervalo (%f,%f)\n", c, a, b);
-        }
+            printf("%f no pertenece al intervalo (%f,%f)\n", c, a, b);
+            }
     }
     return 0;
 }
