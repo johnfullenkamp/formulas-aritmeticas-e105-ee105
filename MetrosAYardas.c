@@ -1,3 +1,6 @@
+// Desarrolador: Marcos Velázquez Ruiz 
+
+
 #include <stdio.h>
 
 void main() {
