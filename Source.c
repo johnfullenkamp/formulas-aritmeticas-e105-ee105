@@ -1,37 +1,19 @@
-//David Thomas
-//Este programa calcula las soluciones de una ecuacion de segundo grado
+// Nombre: Mariano Jiménez Bohórquez
+// programa para calcular la posición final de un objeto dada una velocidad y un tiempo
 
-# include <stdio.h>
-# include <math.h>
+#include <stdio.h>
 
-main() {
+void main() {
+	float posicion1, velocidad, tiempo, posicion2;
+	printf("introduzca posicion del objeto (km): ");
+	scanf_s("%f", &posicion1);
+	printf("introduzca la velocidad del objeto (km/h):");
+	scanf_s("%f", &velocidad);
+	printf("introduzca tiempo transcurrido (h):");
+	scanf_s("%f", &tiempo);
 
-	//Declaracion de variables
-	float a, b, c;     //coeficientes
-	float x_1, x_2;    //soluciones
-
-	//Pedir datos
-	printf("Vamos a calcular las soluciones de una ecuacion a*x^2 + b*x + c\n");
-	printf("Introduce el coeficiente de x^2 (a): ");
-	scanf_s("%f", &a);
-	printf("Introduce el coeficiente de x (b): ");
-	scanf_s("%f", &b);
-	printf("Introduce el termino independiente (c): ");
-	scanf_s("%f", &c);
-
-	//Calculos
-	if (pow(b, 2) - 4 * a*c < 0) {
-		printf("la ecuacion no tiene soluciones reales \n");
-	}
-	else {
-		x_1 = -b + sqrt(pow(b, 2) - 4 * a*c);
-		x_1 = x_1 / (2 * a);
-		x_2 = -b - sqrt(pow(b, 2) - 4 * a*c);
-		x_2 = x_2 / (2 * a);
-		printf("la dos soluciones son: %f y %f \n", x_1, x_2);
-		system("PAUSE");
-	}
-
-
+	posicion2 = posicion1 + (velocidad*tiempo);
+	printf("posicion final=%f km", posicion2);
+	system("pause");
 
 }
