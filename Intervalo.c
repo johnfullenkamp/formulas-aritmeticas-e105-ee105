@@ -13,7 +13,7 @@ int main() {
     else{
         printf("Introduce c\n");
         scanf("%f", &c);
-        if(c>a & c<b){
+        if((c>a) && (c<b)){
         printf("%f pertenece al intervalo (%f,%f)\n", c, a, b);
         }
         else{
