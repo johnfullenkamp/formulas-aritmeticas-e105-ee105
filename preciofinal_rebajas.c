@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main() {
-	//ZONA DE DECLARACIÓN DE VARIABLES
+	//ZONA DE DECLARACIÃ“N DE VARIABLES
 	float precio_inicial;
 	int descuento;
 	float precio_final;
