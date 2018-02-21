@@ -1,5 +1,5 @@
-// Nombre: Mariano Jiménez Bohórquez
-// programa para calcular la posición final de un objeto dada una velocidad y un tiempo
+// Nombre: Mariano JimÃ©nez BohÃ³rquez
+// programa para calcular la posiciÃ³n final de un objeto dada una velocidad y un tiempo
 
 #include <stdio.h>
 
